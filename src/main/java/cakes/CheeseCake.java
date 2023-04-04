@@ -1,4 +1,6 @@
-public class CheeseCake extends Cake{
+import Cake.Cake;
+
+public class CheeseCake extends Cake {
 
     private String name;
 

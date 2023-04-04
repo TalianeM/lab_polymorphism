@@ -1,12 +1,14 @@
+package Cake;
+
 public class Cake {
 
 
     private String name;
-    private String flavour;
+    private String baseFlavour;
 
-public Cake (String name, String flavour){
+public Cake (String name, String baseFlavour){
     this.name = name;
-    this.flavour = name;
+    this.baseFlavour = baseFlavour;
 }
 
 public String getName(){
@@ -16,5 +18,7 @@ public String getName(){
 public String getFlavour(){
     return flavour;
 }
+
+
 
 }
