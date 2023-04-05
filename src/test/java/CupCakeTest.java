@@ -1,2 +1,13 @@
-package PACKAGE_NAME;public class CupCakeTest {
+import org.junit.jupiter.api.Test;
+
+public class CupCakeTest {
+
+    @Test
+
+
+    @Test
+
+    @Test
+
+
 }

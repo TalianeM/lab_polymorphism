@@ -1,12 +1,13 @@
-import Cake.Cake;
+package cakes;
 
 public class CheeseCake extends Cake {
 
-    private String name;
 
     private String icing;
 
-    public CheeseCake(String name, String icing, String name){
+    public CheeseCake(String name, String baseFlavour, String icing){
+        super(name,baseFlavour);
+        this.icing = icing;
     }
 
 

@@ -1,32 +1,44 @@
-import Cake.Cake;
+package bakery;
+
+import cakes.Cake;
+import cakes.CheeseCake;
 
 import java.util.ArrayList;
 
+import java.util.List;
+
 public class Bakery {
     private String name;
-    private static ArrayList<Cake> cake;
-    private String baseFlavour;
+    private static ArrayList<Cake> cakes;
 
     public Bakery(String name, String baseFlavour) {
         this.name = name;
-        this.cake = new ArrayList<>();
-        this.baseFlavour = baseFlavour;
+        this.cakes = new ArrayList<>();
+==}
+
+
+    //    Size : int
+    public int cakeCount() {
+        return this.cakes.size();   // size . int
     }
 
-    public void addCake (Cake Cheesecake) {
-        cake.add(cake);
+
+    public void addCake(Cake cake){
+        this.cakes.add(cake);
     }
 
 //    Getters and setters
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public String getBaseFlavour(){
-        return name;
+
+    public void setName(String newName) {
+        this.name = newName;
     }
 
+//
 }
 
 
